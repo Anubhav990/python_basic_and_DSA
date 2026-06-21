@@ -1,3 +1,5 @@
+```mermaid
+
 graph TD
     A[Python Learning Repo]
 
@@ -27,3 +29,5 @@ graph TD
     E --> E1[Cheatsheets]
     E --> E2[DSA Patterns]
     E --> E3[... More Notes]
+
+```
