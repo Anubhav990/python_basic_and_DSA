@@ -8,7 +8,7 @@ graph TB
         B2[Strings]
         B3[Loops]
         B4[Functions]
-        B5[...]
+        B5[... More Basic Topics]
     end
 
     subgraph C [DSA]
@@ -24,7 +24,7 @@ graph TB
         D2[Caching]
         D3[Load Balancing]
         D4[Database Design]
-        D5[... System Design Concepts]
+        D5[... More System Design Concepts]
     end
 
     subgraph E [Notes]
