@@ -1,33 +1,41 @@
 ```mermaid
 
-graph TD
+graph TB
     A[Python Learning Repo]
 
-    A --> B[Python Basics]
-    A --> C[DSA]
-    A --> D[System Design]
-    A --> E[Notes]
+    subgraph B [Python Basics]
+        B1[List]
+        B2[Strings]
+        B3[Loops]
+        B4[Functions]
+        B5[...]
+    end
 
-    B --> B1[List]
-    B --> B2[Strings]
-    B --> B3[Loops]
-    B --> B4[Functions]
-    B --> B5[...]
+    subgraph C [DSA]
+        C1[Arrays]
+        C2[Sorting]
+        C3[Searching]
+        C4[Recursion]
+        C5[... More DSA Topics]
+    end
 
-    C --> C1[Arrays]
-    C --> C2[Sorting]
-    C --> C3[Searching]
-    C --> C4[Recursion]
-    C --> C5[... More DSA Topics]
+    subgraph D [System Design]
+        D1[Basics]
+        D2[Caching]
+        D3[Load Balancing]
+        D4[Database Design]
+        D5[... System Design Concepts]
+    end
 
-    D --> D1[Basics]
-    D --> D2[Caching]
-    D --> D3[Load Balancing]
-    D --> D4[Database Design]
-    D --> D5[... System Design Concepts]
+    subgraph E [Notes]
+        E1[Cheatsheets]
+        E2[DSA Patterns]
+        E3[... More Notes]
+    end
 
-    E --> E1[Cheatsheets]
-    E --> E2[DSA Patterns]
-    E --> E3[... More Notes]
+    A --> B
+    A --> C
+    A --> D
+    A --> E
 
 ```
