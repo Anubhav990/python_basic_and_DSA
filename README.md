@@ -10,7 +10,7 @@ graph TD
     B --> B2[Strings]
     B --> B3[Loops]
     B --> B4[Functions]
-    B --> B5[...]  
+    B --> B5[...]
 
     C --> C1[Arrays]
     C --> C2[Sorting]
