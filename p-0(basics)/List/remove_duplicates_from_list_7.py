@@ -14,6 +14,12 @@ def remove_duplicates_from_list(lst):
                 
     # return result
     
+    """
+    This function takes a list of numbers as input and returns if there are any duplicates inside the list.
+    :param lst: List of numbers
+    
+    """
+    
     seen = set()
     result = []
     

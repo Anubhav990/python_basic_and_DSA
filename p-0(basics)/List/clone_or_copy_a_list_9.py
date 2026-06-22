@@ -1,6 +1,14 @@
 # Manual copy without any built in methods
 
 def clone_a_list(lst):
+    
+        
+    """
+    This function takes a list of numbers as input and returs a copy of the same list.
+    :param lst: List of numbers
+    
+    """
+    
     result = []
     for i in lst:
         result.append(i)
