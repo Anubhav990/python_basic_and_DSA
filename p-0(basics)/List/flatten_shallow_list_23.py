@@ -10,4 +10,5 @@ def flatten_shallow_list(lst):
 if __name__ == "__main__":
     lst = eval(input("Enter a shallow nested list :"))
     print(flatten_shallow_list(lst))
+     
     
